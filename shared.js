@@ -46,7 +46,6 @@ const accordionPanel = document.querySelectorAll('.accordion-panel');
 linkItems.forEach(item => {
     //on any click on .accordion
     item.addEventListener('click', e => {
-        console.log(e)
         //remove all existing active classes from accordion panels, BUT NOT on current clicked
         Array.from(accordionPanel).filter(panel => panel !== e.target.nextElementSibling)
             .forEach(panel => panel.classList.remove("active"));
