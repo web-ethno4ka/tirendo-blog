@@ -1249,9 +1249,9 @@ footer {
     min-width: 30rem;
   }
 
-  .article-wrapper {
+  /* .article-wrapper {
     max-width: 30rem;
-  }
+  } */
   
   .main-article {
     display: none;
@@ -1356,7 +1356,7 @@ footer {
     margin-right: 1rem;
   }
 
-  .socials-item:not(:last-child) {
+  section .socials-item:not(:last-child) {
     margin-right: 2rem;
   }
 }
