@@ -532,7 +532,6 @@ main {
   background: rgba(255, 255, 255, 0.05);
   padding: 2rem;
   margin-right: 2rem;
-  margin-bottom: 3rem;
   color: #c7c7c7;
 }
 
@@ -699,10 +698,9 @@ section .socials-item a:hover section .socials-item {
   overflow: auto;
 }
 
-
-
-
-
+.comment {
+  margin: 3rem 0 1rem 0 ;
+}
 
 
 /* section {
